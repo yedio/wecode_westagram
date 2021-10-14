@@ -1,0 +1,142 @@
+.main-nav{
+    position:fixed;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    background-color: #ffffff;    
+    border-bottom: 1px solid #DBDBDB;
+}
+.nav-content{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    width: 975px;
+}
+
+.nav-content-left{
+    display: flex;
+    align-items:center;
+}
+
+.nav-content-left img{
+    height:23px;
+    margin: 0 15px 0 0 ;
+}
+
+.nav-logo{
+    padding: 0 0 0 15px ;
+    border-left: 1px solid #262626;
+    color:#262626;
+    font-family: 'Lobster', cursive;
+    font-size: 25px;
+    font-weight: thin;
+}
+
+.search{
+    position:relative;
+    width:210px;
+    height:28px;
+    padding: 0 25px 0 25px; 
+    background-color: #FAFAFA;
+    border: 1px solid #DBDBDB;
+    border-radius: 3px;
+}
+
+.search:focus {
+    outline: transparent;
+}
+
+.search-value{
+    /* position:absolute일때 중앙정렬하는 방법 */
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.search-value span{
+    color:#B5B5B5;
+    font-size:15px;
+}
+
+.search-value img{
+    /* png 색상 변경 사이트 https://codepen.io/sosuke/pen/Pjoqqp */
+    filter: invert(82%) sepia(9%) saturate(12%) hue-rotate(10deg) brightness(89%) contrast(86%);
+    width:11px;
+}
+
+.nav-content-right{}
+    
+
+
+.nav-content-right img{
+    height:23px;
+    margin:0 0 0 25px;
+}
+
+.main{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FAFAFA;
+}
+
+.section{
+    display: flex;
+    width: 975px;
+    height:300px;
+    margin-top:130px;
+}
+
+.feeds{
+    width:70%;
+    background-color: rosybrown;
+    
+}
+
+/* Right - 계정/스토리/추천 */
+
+.main-right{
+    display:flex;
+    flex-direction: column;
+    width: 33%;
+    padding-left:30px;
+    background-color: saddlebrown;
+}
+
+.profile{
+    display:flex;
+    flex-direction: row;
+    height:70px;
+    background-color:red;
+}
+
+.profile-img {
+    width: 56px;
+    height: 56px; 
+    border-radius: 67%;
+    background-color: salmon;
+    overflow: hidden;
+}
+.profile-img a {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.profile-dsc{
+    padding: 15px 0 0 20px;
+}
+
+.profile-dsc a{
+    font-weight: bold;
+}
+
+.profile-dsc p{
+    margin-top:0px;
+    color:#8E8E8E; 
+
+}
+
