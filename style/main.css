@@ -111,6 +111,27 @@
     align-items: center;
 }
 
+.gradient{
+    position:relative;
+    width: 50px;
+    height: 50px; 
+    border-radius: 70%;
+    background: #f09433; 
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+}
+.circleWhite{
+    position: absolute;
+    width: 50%;
+    height: 50%;
+
+    background-color: white;
+    transform: translate(50%, 50%);
+    border-radius: 70%;
+}
+
 .feeds-profile-img {
     width: 33px;
     height: 33px; 
@@ -206,10 +227,10 @@
     width: 33%;
     padding-left:30px;
     
-    position: fixed;
-    width:21%;
+    /* position: fixed;
+    width:320px;
     top: 130px;
-    right: 230px;
+    left: 0px; */
 }
 
 .profile{
@@ -271,6 +292,16 @@
     font-weight: bold;
 }
 
+.story-profile-box{
+    height:500px;
+    overflow-y: scroll;
+    
+}
+
+.story-profile-box::-webkit-scrollbar{
+    display:none;
+}
+
 .story-profile{
     display: flex;
     flex-direction: row;
@@ -316,8 +347,9 @@
 .reccom-content{
     display:flex;
     justify-content: space-between;
+    align-items: center;
+    height:50px;
     padding:10px 0 0 0;
-    background-color: wheat;
 }
 
 .reccom-profile-img {
@@ -326,6 +358,7 @@
     border-radius: 70%;
     background-color: violet;
     overflow: hidden;
+    margin-bottom: 10px;
 }
 
 .reccom-profile-img img{
@@ -341,6 +374,11 @@
     border: none;
     font-size: 15px;
     font-weight: bold;
+}
+
+.reccom-profile{
+    display: flex;
+    align-items: center;
 }
 
 .footer{
