@@ -1,3 +1,5 @@
+"use strict";
+
 /* Mission1 - 로그인 버튼 활성화 */
 const loginId = document.getElementById('LOGIN_ID');
 const loginPw = document.getElementById('LOGIN_PW');
@@ -15,7 +17,8 @@ function color() {
 }
 
 function moveToMain(){
-    location.href="./main.html"
+    // location.href="./main.html";
+    location.replace("./main.html");
 }
 
 loginId.addEventListener('keyup', color);

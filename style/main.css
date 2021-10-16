@@ -67,7 +67,6 @@
     width:11px;
 }
 
-.nav-content-right{}
     
 
 
@@ -148,7 +147,6 @@
 
 .feeds-img{
     height:642px;
-    background-color: aqua;
     overflow: hidden;
 }
 
@@ -175,13 +173,6 @@
     margin-right:10px;
 }
 
-.feedLikes{
-    
-}
-
-.feedLtext{
-}
-
 .feedDscMore{
     margin-left: 5px;
     color:#8E8E8E;
@@ -198,7 +189,6 @@
     position:relative;
 }
 .inputComment{
-    
     width: 100%;
     height:50px;    
     border:none;
@@ -213,8 +203,9 @@
     right:5px;
     border:none;
     background-color: transparent;
-    color:#0096F6;
+    color:#B8E2FD;
     font-size: 14px;    
+    font-weight: bold;
 }
 
 
