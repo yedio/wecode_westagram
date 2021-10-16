@@ -10,14 +10,18 @@ function color() {
         loginBtn.disabled = false;
     }else{
         loginBtn.style.backgroundColor = "#C0DFFD";
-        loginBtn.disabled = true;
+        loginBtn.disabled = 'disabled';
     }
+}
+
+function moveToMain(){
+    location.href="./main.html"
 }
 
 loginId.addEventListener('keyup', color);
 loginPw.addEventListener('keyup', color);
+loginBtn.addEventListener('click',moveToMain);
  
-
 
 
 
