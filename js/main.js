@@ -4,6 +4,7 @@
 const feedCmt = document.getElementById('feedComment');
 const feedBtn = document.getElementById('feedButton');
 const cmtUp = document.getElementById('CMT_WRITE');
+const contentEL = document.createElement('span');
 
 function btnColor() {
     if(feedCmt.value.length>0){
@@ -16,6 +17,11 @@ function btnColor() {
 }
 
 function commentUp(){
+    cmtUp.innerHTML='ㄱㅈㄱ';
+    cmtUp.innerHTML=feedCmt.value;
+
+
+
     // cmtUp.innerHTML="<span>"+feedCmt+"</span>"
     console.log(feedCmt.value);
 
