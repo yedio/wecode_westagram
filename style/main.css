@@ -86,48 +86,153 @@
 .section{
     display: flex;
     width: 975px;
-    height:300px;
     margin-top:130px;
 }
 
+/* Feeds */
+
 .feeds{
-    width:70%;
-    background-color: rosybrown;
+    width: 65.4%;
+    /* width: 67%; */
+    background-color: #FFFFFF;
+    border: 1px solid #DBDBDB;
+    border-radius: 3px;
+}
+
+.feeds-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 13px;
+}
+
+.feeds-profile{
+    display: flex;
+    align-items: center;
+}
+
+.feeds-profile-img {
+    width: 33px;
+    height: 33px; 
+    border-radius: 70%;
+    overflow: hidden;
+    margin-right: 10px;
+}
+
+.feeds-profile-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.feeds-img{
+    height:642px;
+    background-color: aqua;
+    overflow: hidden;
+}
+
+.feeds-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.feeds-bottom{
+    padding: 12px 12px 0px 12px;
+
+}
+
+.feeds-icon{
+    display:flex;
+    justify-content: space-between;
+    color:#414141;
+}
+
+.feeds-icon i{
+    font-size:28px;
+    margin-right:10px;
+}
+
+.feedLikes{
     
 }
 
-/* Right - 계정/스토리/추천 */
+.feedLtext{
+}
+
+.feedDscMore{
+    margin-left: 5px;
+    color:#8E8E8E;
+}
+
+.feedComment p{
+    margin:0;
+}
+.feedTime{
+    color:#8E8E8E;
+}
+
+.comment{
+    position:relative;
+}
+.inputComment{
+    
+    width: 100%;
+    height:50px;    
+    border:none;
+    border-top: 1px solid #DBDBDB;
+    outline: transparent;
+    padding:0 60px 0 20px;
+}
+
+.btnComment{
+    position:absolute; 
+    top: 20px;
+    right:5px;
+    border:none;
+    background-color: transparent;
+    color:#0096F6;
+    font-size: 14px;    
+}
+
+
+
+/* Right - 계정 */
 
 .main-right{
     display:flex;
     flex-direction: column;
     width: 33%;
     padding-left:30px;
-    background-color: saddlebrown;
+    
+    position: fixed;
+    width:21%;
+    top: 130px;
+    right: 230px;
 }
 
 .profile{
     display:flex;
     flex-direction: row;
     height:70px;
-    background-color:red;
 }
 
 .profile-img {
     width: 56px;
     height: 56px; 
-    border-radius: 67%;
+    border-radius: 70%;
     background-color: salmon;
     overflow: hidden;
 }
-.profile-img a {
+.profile-img img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
 .profile-dsc{
-    padding: 15px 0 0 20px;
+    padding: 13px 0 0 15px;
 }
 
 .profile-dsc a{
@@ -137,6 +242,110 @@
 .profile-dsc p{
     margin-top:0px;
     color:#8E8E8E; 
-
 }
+
+/* Right - 스토리 */
+
+.story{
+    display:flex;
+    flex-direction: column;
+    height:230px;
+    padding: 15px;
+    background-color: #FFFFFF;
+    border: 1px solid #DBDBDB;
+    border-radius: 5px;
+}
+
+.story-title{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom:10px;
+    font-size:15px;
+}
+
+.story-title span{
+    color:#8E8E8E;
+}
+.story-title a{
+    font-weight: bold;
+}
+
+.story-profile{
+    display: flex;
+    flex-direction: row;
+}
+
+.story-profile-img {
+    width: 40px;
+    height: 40px; 
+    border-radius: 70%;
+    background-color: salmon;
+    overflow: hidden;
+}
+.story-profile-img img{
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+}
+
+.story-profile-dsc{
+    padding: 3px 0 0 15px;
+}
+
+.story-profile-dsc a{
+    font-weight: bold;
+}
+
+.story-profile-dsc p{
+    margin-top:0px;
+    color:#8E8E8E; 
+}
+
+.reccom{
+    display:flex;
+    flex-direction: column;
+    height:200px;
+    padding: 15px;
+    margin-top:15px;
+    background-color: #FFFFFF;
+    border: 1px solid #DBDBDB;
+    border-radius: 5px;
+}
+
+.reccom-content{
+    display:flex;
+    justify-content: space-between;
+    padding:10px 0 0 0;
+    background-color: wheat;
+}
+
+.reccom-profile-img {
+    width: 35px;
+    height: 35px; 
+    border-radius: 70%;
+    background-color: violet;
+    overflow: hidden;
+}
+
+.reccom-profile-img img{
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+}
+
+.reccom-follow{
+    margin: 0 0 15px 0;
+    color:#0095F6;
+    background-color:transparent;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.footer{
+    color:#C7C7C7;
+    font-size: 15px;
+}
+
 
