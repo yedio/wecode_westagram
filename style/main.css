@@ -212,16 +212,14 @@
 
 /* Right - 계정 */
 
+
 .main-right{
     display:flex;
     flex-direction: column;
     width: 33%;
     padding-left:30px;
-    
-    /* position: fixed;
-    width:320px;
-    top: 130px;
-    left: 0px; */
+
+   
 }
 
 .profile{
