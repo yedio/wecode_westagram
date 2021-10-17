@@ -1,6 +1,6 @@
 "use strict";
 
-/* Mission1 - 로그인 버튼 활성화 */
+/* Mission2 - 로그인 버튼 활성화 */
 const loginId = document.getElementById('LOGIN_ID');
 const loginPw = document.getElementById('LOGIN_PW');
 const loginBtn = document.getElementById('LOGIN_BTN');
@@ -13,6 +13,7 @@ function color() {
     }else{
         loginBtn.style.backgroundColor = "#C0DFFD";
         loginBtn.disabled = 'disabled';
+        // loginBtn.disabled = true;
     }
 }
 

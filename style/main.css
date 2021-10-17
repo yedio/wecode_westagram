@@ -8,6 +8,7 @@
     background-color: #ffffff;    
     border-bottom: 1px solid #DBDBDB;
 }
+
 .nav-content{
     display:flex;
     align-items:center;
@@ -27,10 +28,10 @@
 
 .nav-logo{
     padding: 0 0 0 15px ;
-    border-left: 1px solid #262626;
     color:#262626;
-    font-family: 'Lobster', cursive;
+    border-left: 1px solid #262626;
     font-size: 25px;
+    font-family: 'Lobster', cursive;
     font-weight: thin;
 }
 
@@ -89,7 +90,6 @@
 }
 
 /* Feeds */
-
 .feeds{
     width: 65.4%;
     /* width: 67%; */
@@ -121,11 +121,11 @@
     background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
 }
+
 .circleWhite{
     position: absolute;
     width: 50%;
     height: 50%;
-
     background-color: white;
     transform: translate(50%, 50%);
     border-radius: 70%;
@@ -134,9 +134,9 @@
 .feeds-profile-img {
     width: 33px;
     height: 33px; 
+    margin-right: 10px;
     border-radius: 70%;
     overflow: hidden;
-    margin-right: 10px;
 }
 
 .feeds-profile-img img {
@@ -169,8 +169,8 @@
 }
 
 .feeds-icon i{
-    font-size:28px;
     margin-right:10px;
+    font-size:28px;
 }
 
 .feedDscMore{
@@ -181,6 +181,7 @@
 .feedComment p{
     margin:0;
 }
+
 .feedTime{
     color:#8E8E8E;
 }
@@ -188,38 +189,33 @@
 .comment{
     position:relative;
 }
+
 .inputComment{
     width: 100%;
     height:50px;    
+    padding:0 60px 0 20px;
     border:none;
     border-top: 1px solid #DBDBDB;
     outline: transparent;
-    padding:0 60px 0 20px;
 }
 
 .btnComment{
     position:absolute; 
     top: 20px;
     right:5px;
-    border:none;
-    background-color: transparent;
     color:#B8E2FD;
+    background-color: transparent;
+    border:none;
     font-size: 14px;    
     font-weight: bold;
 }
 
-
-
 /* Right - 계정 */
-
-
 .main-right{
     display:flex;
     flex-direction: column;
     width: 33%;
     padding-left:30px;
-
-   
 }
 
 .profile{
@@ -231,10 +227,11 @@
 .profile-img {
     width: 56px;
     height: 56px; 
-    border-radius: 70%;
     background-color: salmon;
+    border-radius: 70%;
     overflow: hidden;
 }
+
 .profile-img img {
     width: 100%;
     height: 100%;
@@ -255,7 +252,6 @@
 }
 
 /* Right - 스토리 */
-
 .story{
     display:flex;
     flex-direction: column;
@@ -277,6 +273,7 @@
 .story-title span{
     color:#8E8E8E;
 }
+
 .story-title a{
     font-weight: bold;
 }
@@ -284,7 +281,6 @@
 .story-profile-box{
     height:500px;
     overflow-y: scroll;
-    
 }
 
 .story-profile-box::-webkit-scrollbar{
@@ -299,8 +295,8 @@
 .story-profile-img {
     width: 40px;
     height: 40px; 
-    border-radius: 70%;
     background-color: salmon;
+    border-radius: 70%;
     overflow: hidden;
 }
 .story-profile-img img{
@@ -344,10 +340,10 @@
 .reccom-profile-img {
     width: 35px;
     height: 35px; 
-    border-radius: 70%;
-    background-color: violet;
-    overflow: hidden;
     margin-bottom: 10px;
+    background-color: violet;
+    border-radius: 70%;
+    overflow: hidden;
 }
 
 .reccom-profile-img img{
