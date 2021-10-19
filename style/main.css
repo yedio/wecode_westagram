@@ -3,14 +3,6 @@ ul,li{
     padding-left: 0;
 }
 
-.bold{
-    font-weight: bold;
-}
-.delete{
-    float:right;
-    cursor: pointer;
-}
-
 .main-nav{
     position:fixed;
     display:flex;
@@ -219,6 +211,15 @@ ul,li{
     font-size: 14px;    
     font-weight: bold;
 }
+
+.bold{
+    font-weight: bold;
+}
+.delete{
+    float:right;
+    cursor: pointer;
+}
+
 
 /* Right - 계정 */
 .main-right{

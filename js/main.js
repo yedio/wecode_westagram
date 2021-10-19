@@ -17,7 +17,6 @@ function commentCheck(){
         alert("댓글을 입력하시오");
     }else{
         commentUp(feedCmt.value);
-        
     }
 }
 
@@ -30,7 +29,6 @@ function commentUp(value){
     deleteComment(newCommentList);
     commentLists.appendChild(newCommentList); //<ul>태그 안에 <li>코멘트 생성
     feedCmt.value="" //댓글 초기화 
-    feedBtn.style.color = "#B8E2FD";
 }
 
 function deleteComment(newCommentList){
